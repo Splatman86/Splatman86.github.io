@@ -23,12 +23,9 @@ left: 50%;
 }
 </style>
 <h1 id="header"> Mario Kart Tournoment </h1>
-<p id="subheader"> Embed a Nintendo DS emulator easily. (Embeddable version of DeSmuME-wasm) </p>
 <input type="file" style="position: relative; transform: translate(-50%, -50%); left: 30%; top: 90%;"></input>
-<input type="checkbox" id="microphone_on" style="position: relative; transform: translate(-50%, -50%); left: 30%; top: 95%;"></input>
 <desmond-player id="player" style="position: relative; transform: translate(-50%, -50%); left: 35%; top: 100%; border-color: black;"></desmond-player>
 <a href="demos/firmware.html" id="unplacedheader" style="position: relative; width: 100%; text-align: center; top: 105%; left: 25%"> Firmware/Home Screen Demo (supports less games as it is using outdated firmware and is just for showcasing purposes) </a>
-<p style="position: absolute; top: 98.35%; left: 49%;"> Enable Microphone </p>
 <script src="dist/desmond.min.js"></script>
 <script>
   document.querySelector("input").onchange = function(){
